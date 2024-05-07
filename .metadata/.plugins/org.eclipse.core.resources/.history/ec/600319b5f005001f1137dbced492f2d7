@@ -1,8 +1,0 @@
-package com.kh.QueEx;
-
-public class QuePre {
-
-	public static void main(String[] args) {
-		Queue<Integer> que = new LinkedList<>();
-	}
-}

@@ -1,8 +1,0 @@
-package ncs.test10;
-
-public class Book {
-	private String category;
-	private String bookName;
-	private double bookPrice;
-	private double bookDiscountRate; 
-}

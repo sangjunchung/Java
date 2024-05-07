@@ -1,0 +1,9 @@
+package ncs.test8;
+
+public class IPSearch {
+
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,8 +1,0 @@
-package com.kh.SocketEx;
-
-public class ServerEx {
-
-	public static void main(String[] args) {
-		// 서버는 나의 IP 주소와 접근 경로(포트반호) 생성
-	}
-}

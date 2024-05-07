@@ -1,8 +1,0 @@
-package com.kh.SocketEx;
-
-public class ServerEx {
-
-	public static void main(String[] args) {
-		
-	}
-}
