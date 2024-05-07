@@ -10,7 +10,6 @@ INDEX VERSION 1.131+C:\Users\user1\eclipse-workspace\.metadata\.plugins\org.ecli
 1315618747.index
 3643369823.index
 820020507.index
-269338605.index
 4222301504.index
 2409453045.index
 3821095107.index
