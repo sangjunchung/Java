@@ -1,0 +1,14 @@
+package ncs4.test1;
+
+import java.util.Comparator;
+
+public class Decending implements Comparator {
+
+	@Override
+	public int compare( o1,  o2) {
+		
+		
+		return ;
+	}
+
+}

@@ -1,0 +1,15 @@
+package ncs.test6;
+
+public class MultiTreadTest {
+
+	public static void main(String[] args) {
+		Data data = new Data();
+		Thread putThread;
+		Thread getThread;
+		
+		Provider p = new Provider(data);
+		Customer c = new Customer(data);
+		
+		
+	}
+}

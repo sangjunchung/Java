@@ -1,0 +1,27 @@
+package ncs4.test2;
+
+import java.util.Properties;
+
+public class PropTest {
+
+	public static void fileSave(Properties p) {
+
+	}
+
+	public static void fileOpen(Properties p) {
+
+	}
+
+	public static void main(String[] args) {
+		Properties prop = new Properties();
+		prop.put(1, new Fruit("apple", 1200, 3).toString());
+		prop.put(2, new Fruit("banana", 2500, 2).toString());
+		prop.put(3, new Fruit("grape", 4500, 5).toString());
+		prop.put(4, new Fruit("orange", 800, 10).toString());
+		prop.put(5, new Fruit("melon", 5000, 2).toString());
+		
+		fileSave(prop);
+		fileOpen(prop);
+	}
+
+}

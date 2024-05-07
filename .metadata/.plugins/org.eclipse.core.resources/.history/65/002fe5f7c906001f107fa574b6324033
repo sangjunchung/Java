@@ -1,0 +1,13 @@
+package ncs.test10;
+
+public class BookStore {
+
+	public static void main(String[] args) {
+		Book bookdata;
+		BookUpdate bookupdate;
+		
+		bookdata = new Book("컴퓨터", "HTML5", 30000, 15);
+		
+	}
+
+}

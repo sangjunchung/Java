@@ -1,0 +1,8 @@
+package ncs.test6;
+
+public class MultiTreadTest {
+
+	public static void main(String[] args) {
+
+	}
+}

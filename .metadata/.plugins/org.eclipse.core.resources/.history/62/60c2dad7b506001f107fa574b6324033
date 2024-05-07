@@ -1,0 +1,15 @@
+package ncs.test7;
+
+import java.util.*;
+
+public class TestSort {
+
+	public static void main(String[] args) {
+		Set<Integer> set = new HashSet<>();
+
+		while (set.size() < 11) {
+			set.add((int)(Math.random()*50)+51);
+		}
+	}
+
+}

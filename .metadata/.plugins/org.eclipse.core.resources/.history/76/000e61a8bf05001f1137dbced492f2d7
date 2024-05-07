@@ -1,0 +1,9 @@
+package com.kh.AddressEx;
+
+/*
+IP 주소 : 컴퓨터에서 네트워크에 특정 장치를 확인하는데 사용하는 숫자 
+*/
+
+public class AddressEx {
+
+}

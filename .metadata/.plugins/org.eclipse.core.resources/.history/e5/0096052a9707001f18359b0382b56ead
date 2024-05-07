@@ -1,0 +1,19 @@
+package ncs4.test2;
+
+import java.util.Properties;
+
+public class PropTest {
+
+	public void fileSave(Properties p) {
+
+	}
+
+	public void fileOpen(Properties p) {
+
+	}
+
+	public static void main(String[] args) {
+		Properties prop = new Properties();
+	}
+
+}

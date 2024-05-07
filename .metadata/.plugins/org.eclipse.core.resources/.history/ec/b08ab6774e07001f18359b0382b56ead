@@ -1,0 +1,9 @@
+package sup1.controller;
+
+public class TestSup1 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

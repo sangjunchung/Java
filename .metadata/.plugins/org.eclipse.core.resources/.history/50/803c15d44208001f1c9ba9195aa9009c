@@ -1,0 +1,37 @@
+package ncs4.test3;
+
+import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
+
+public class MapTest {
+
+	@SuppressWarnings("deprecation")
+	public static void main(String[] args) {
+		Map<String, Inventory> map = new HashMap<>();
+		map.put("삼성", new Inventory("삼성 갤럭시S7", new Date(116, 03, 15), 30));
+		map.put("LG", new Inventory("LG G5", new Date(116, 02, 25), 20));
+		map.put("애플", new Inventory("애플 아이패드Pro", new Date(116, 01, 23), 15));
+		
+		for(Map.Entry<String, Inventory> e : map.entrySet()) {
+			System.out.println(e.getValue());
+		}
+		
+		Inventory[] inven = new Inventory[map.size()];
+		for(Inventory in : map.values()) {
+			int a = 0;
+			inven[a] = in;
+			a++;
+		}
+
+		System.out.println("출고 수량 10 적용시 -------------------------------");
+		for(int i =0; i<inven.length; i++) {
+			inven[i].setGetDate(new Date());
+			inven[i].setGetAmount(10);
+		}
+		
+		for(Inventory in : inven) {
+			//in.toString();
+		}
+	}
+}

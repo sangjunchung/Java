@@ -1,0 +1,25 @@
+package ncs.test6;
+
+public class Data  {
+	private int value;
+	private boolean isEmpty = true;
+	
+	public Data() {
+	
+	}
+	
+	public synchronized void setValue(int value) {
+		this.value = value;
+		isEmpty = false;
+	}
+	
+	public synchronized int getValue() throws EmptyException {
+		if(value == 0) {
+			throw new EmptyException("현재 입력된 값이 없습니다. 기다리십시오...");
+		}
+		int a = value;
+		isEmpty = true;
+		
+		return a;
+	}
+}

@@ -1,0 +1,31 @@
+package ncs4.test4;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class GoodsTest {
+
+	public static void main(String[] args) {
+		BufferedReader br = null;
+		br = new BufferedReader(new InputStreamReader(System.in));
+		Goods goods;
+		
+		try {
+			String str = br.readLine();
+			int a = br.read();
+			int b = br.read();
+			
+			goods = new Goods(str, a, b);
+					
+			br.close();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+		
+	
+	}
+}

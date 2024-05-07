@@ -1,0 +1,8 @@
+package com.kh.AddressEx;
+
+public class AddressEx2 {
+
+	public static void main(String[] args) {
+		
+	}
+}

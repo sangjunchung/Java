@@ -1,0 +1,25 @@
+package com.kh.StackEx;
+
+import java.util.Stack;
+
+/*
+Stack(스택) : 데이터를 저장하는 자료구조(LIFO - 후입선출)
+ex. 뒤로 가기 기능, 실행 취소 기능
+*/
+
+public class StackEx {
+
+	public static void main(String[] args) {
+		Stack<Integer> stack = new Stack<>();
+		stack.push(3);
+		stack.push(1);
+		stack.push(2);
+		
+		System.out.println(stack.peek());
+		
+		System.out.println(stack.pop());
+		System.out.println(stack.pop());
+		System.out.println(stack.pop());
+	
+	}
+}

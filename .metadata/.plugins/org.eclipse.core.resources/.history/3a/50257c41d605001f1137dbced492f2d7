@@ -1,0 +1,29 @@
+package com.kh.SocketEx;
+
+import java.io.IOException;
+import java.net.ServerSocket;
+import java.net.Socket;
+
+public class ServerEx {
+
+	public static void main(String[] args) {
+		// 서버는 나의 IP 주소와 접근 경로(포트반호) 생성
+		
+		//서버 측의 포트 번호를 지정해서 ServerSocket 생성
+		
+		try {
+			ServerSocket server = new ServerSocket(12348);
+			System.out.println("party chat open");
+			
+			// 서버에 접근하는 클라이언트의 연결을 수락
+			Socket client = server.accept();
+			System.out.println("client success");
+			
+			client.close();
+			server.close();
+			
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+}

@@ -1,0 +1,27 @@
+package ncs.test8;
+
+import java.util.Scanner;
+
+public class TestScore {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		double[][] dbAr = new double[3][5];
+
+		for (int i = 0; i < dbAr.length; i++) {
+			double total = 0.0;
+			double avg = 0.0;
+
+			for (int j = 0; j < 3; j++) {
+				System.out.print(i + "번 학생의 " + j + "번 과목 점수 입력 : ");
+				dbAr[i][j] = sc.nextDouble();
+				total += dbAr[i][j];
+			}
+			dbAr[i][3] = total;
+			dbAr[i][4] = total / 3.0;
+		}
+		
+		System.out.println("index\t과목1\t과목2\t과목3\t총점\t평균");
+	}
+
+}

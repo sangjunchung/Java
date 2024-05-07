@@ -1,0 +1,13 @@
+package ncs.test10;
+
+public class BookUpdate {
+	private Book bookDate;
+	
+	public BookUpdate() {
+		
+	}
+	
+	public BookUpdate(Book inBook) {
+		this.bookDate = inBook;
+	}
+}

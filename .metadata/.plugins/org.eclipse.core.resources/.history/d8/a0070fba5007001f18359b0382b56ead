@@ -1,0 +1,19 @@
+package sup2.model;
+
+public class Student {
+	private String name;
+	private int grade;
+	private int classNum;
+	private int number;
+	private char gender;
+	private double score;
+	
+	public Student(String inName, int inGrade, int inClassNum, int inNumber, char inGender, double inScore) {
+		this.name = inName;
+		this.grade = inGrade;
+		this.classNum = inClassNum;
+		this.number = inNumber;
+		this.gender = inGender;
+		this.score = inScore;
+	}
+}

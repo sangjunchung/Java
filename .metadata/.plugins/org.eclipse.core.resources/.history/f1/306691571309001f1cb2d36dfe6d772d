@@ -1,0 +1,14 @@
+package ncs.test6;
+
+public class Provider extends Thread {
+	private Data data;
+	
+	public Provider(Data data) {
+		this.data = data;
+	}
+	
+	@Override
+	public void run() {
+		
+	}
+}
