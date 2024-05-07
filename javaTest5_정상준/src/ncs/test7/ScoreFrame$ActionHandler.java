@@ -1,5 +1,22 @@
 package ncs.test7;
 
-public class ScoreFrame$ActionHandler {
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
+import javax.swing.JTextField;
+
+public class ScoreFrame$ActionHandler extends ScoreFrame implements ActionListener {
+	
+	@Override
+	public void actionPerformed(ActionEvent event) {
+		/*
+		int sum = Integer.parseInt(super.getJavaScore().getText()) + Integer.parseInt(super.getSqlScore().getText());
+		double avg = sum / 2.0;
+		
+		super.setTotal(new JTextField(Integer.toString(sum)));
+		super.setAverage(new JTextField(Double.toString(avg)));
+		*/
+		super.result();
+		
+	}
 }

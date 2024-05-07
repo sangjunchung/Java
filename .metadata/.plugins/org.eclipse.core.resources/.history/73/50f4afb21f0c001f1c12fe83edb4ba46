@@ -1,0 +1,28 @@
+package ncs.test7;
+
+import java.awt.FlowLayout;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JTextField;
+
+public class ScoreFrame extends JFrame {
+	private JTextField javaScore, sqlScore;
+	private JTextField total, average;
+	private JButton calcBtn;
+	
+	public ScoreFrame() {
+		super("문제 7");
+		
+		javaScore = new JTextField("자바:");
+		this.add(javaScore);
+		
+		calcBtn = new JButton("계산하기");
+		this.add(calcBtn);
+		
+		this.setLayout(new FlowLayout());
+		this.setSize(400, 300);
+		this.setVisible(true);
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	}
+}

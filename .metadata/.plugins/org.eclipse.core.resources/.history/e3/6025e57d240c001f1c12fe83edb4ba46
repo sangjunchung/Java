@@ -1,0 +1,48 @@
+package ncs.test7;
+
+import java.awt.FlowLayout;
+import java.awt.Label;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JTextField;
+
+public class ScoreFrame extends JFrame {
+	private JTextField javaScore, sqlScore;
+	private JTextField total, average;
+	private JButton calcBtn;
+	
+	public ScoreFrame() {
+		super("문제 7");
+		
+		Label java = new Label("자바:");
+		javaScore = new JTextField();
+		Label sql = new Label("SQL:");
+		sqlScore = new JTextField();
+		Label sum = new Label("총점:");
+		total = new JTextField();
+		Label avg = new Label("평균:");
+		average = new JTextField();
+		
+		this.add(java);
+		this.add(javaScore);
+		this.add(sql);
+		this.add(sqlScore);
+		
+		calcBtn = new JButton("계산하기");
+		this.add(calcBtn);
+		
+		//calcBtn.addActionListener(ScoreFrame$ActionHandler);
+		
+		this.add(sum);
+		this.add(total);
+		this.add(avg);
+		this.add(average);
+		
+		this.setLayout(new FlowLayout());
+		this.setSize(400, 300);
+		this.setLocationRelativeTo(null);
+		this.setVisible(true);
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	}
+}

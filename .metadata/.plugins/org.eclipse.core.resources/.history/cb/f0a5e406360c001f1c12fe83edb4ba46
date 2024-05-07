@@ -1,0 +1,9 @@
+package ncs.test7;
+
+import java.awt.event.ActionEvent;
+
+public class ScoreFrame$ActionHandler {
+	public void actionPerformed(ActionEvent event) {
+		
+	}
+}

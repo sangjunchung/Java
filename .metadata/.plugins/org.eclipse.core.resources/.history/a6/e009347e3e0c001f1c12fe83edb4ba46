@@ -1,0 +1,16 @@
+package ncs.test7;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+public class ScoreFrame$ActionHandler extends ScoreFrame implements ActionListener {
+	
+	@Override
+	public void actionPerformed(ActionEvent event) {
+		int sum = Integer.parseInt(super.getJavaScore().getText()) + Integer.parseInt(super.getSqlScore().getText());
+		int avg = sum / 2;
+		
+		super.setTotal(super.getTotal().setText(Integer.toString(sum)));
+		
+	}
+}
