@@ -1,8 +1,0 @@
-package sup2.controller;
-
-public class TestSup2 {
-	
-	public static void main(String[] args) {
-		
-	}
-}

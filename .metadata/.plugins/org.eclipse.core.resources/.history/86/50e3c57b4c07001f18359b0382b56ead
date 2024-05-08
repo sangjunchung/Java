@@ -1,8 +1,0 @@
-package ncs.test7;
-
-public class BookTest {
-
-	public static void main(String[] args) {
-		
-	}
-}
