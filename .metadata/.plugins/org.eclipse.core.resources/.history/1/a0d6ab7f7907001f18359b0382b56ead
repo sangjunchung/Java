@@ -1,9 +1,0 @@
-package ncs.test9;
-
-public class PlaneTest {
-
-	public static void main(String[] args) {
-		
-	}
-
-}
